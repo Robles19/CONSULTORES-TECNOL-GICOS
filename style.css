@@ -12,3 +12,15 @@
     margin:2vh;
     
 }
+.title{
+    color:#ff7f99
+}
+.callbutton{
+    margin: 2vh;
+    height: 4vh;
+    width: 12vh;
+    color: white;
+    border: none;
+    border-radius: 42px 42px 42px 42px;
+    background: #FFCA41;
+}
