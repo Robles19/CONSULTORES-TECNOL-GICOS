@@ -1,4 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #ff7f99;
+}
+.developers{
+    display: flex;
+    justify-content: space-around;
+}
+.fish{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo{
+    height: 10vh;
+    width: 10vh;
+}
+.logo{
+    height: 5vh;
+    width: 5vh;
 }
