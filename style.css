@@ -20,6 +20,9 @@
     font-size: 48px;
     color:#ff7f99
 }
+.title:hover{
+    
+}
 .callbutton{
     margin: 2vh;
     height: 4vh;
@@ -29,8 +32,15 @@
     border-radius: 42px 42px 42px 42px;
     background: #FFCA41;
     margin-left: -0.5vh;
+    cursor: pointer;
+    transition:0.4s;
 
 }
+.callbutton:hover{
+    height: 4.5vh;
+     box-shadow: 10px 5px 5px rgb(161, 160, 160);
+     
+ }
 .rightsideofmain{
     display: flex;
     flex-direction: column;
