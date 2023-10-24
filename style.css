@@ -1,4 +1,51 @@
-*{
+. {
     margin: 0;
     padding: 0;
+}
+
+.container {
+    width: 68vh ;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ff7f99;
+   
+}
+
+.box1 {
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white
+
+}
+
+.box2 {
+   
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.box3 {
+    height: 99%;
+    justify-content: space-between;
+    display: flex;
+    color: white
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    div{
+        
+    }
+
+    border-radius: 50%;
+
 }
