@@ -4,8 +4,7 @@
 }
 
 .container {
-
-    width: 50vh;
+    margin:4vh ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,6 +46,9 @@
 
 .title:hover {}
 
+.descriptionoftheprofessional{
+    width: 50%;
+}
 .buttoncontainers {
     display: flex;
     justify-content: flex-start;
