@@ -9,15 +9,29 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
+}
+.pinkbox{
+    border: none;
+    border-radius: 52% 0% 52% 52%;
+    background: #ff7f99;
+    height: 28vh;
+    width: 28vh;
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .imagenmainsection {
+   
     border: none;
-    border-radius: 52% 0 52% 52%;
-    background: #ff7f99;
-    height: 35vh;
-    width: 35vh;
+    border-radius:50% ;
+    height: 26vh;
+    width: 26vh;
     margin: 2vh;
+    
 }
 
 .rightsideofmain {
