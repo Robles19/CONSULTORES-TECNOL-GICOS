@@ -1,51 +1,53 @@
-. {
-    margin: 0;
-    padding: 0;
-}
 
-.container {
-    width: 68vh ;
-    height: 5vh;
+header{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #ff7f99;
-   
+    justify-content:space-around ;
+    height: 9vh;
+    background-color: #ff7f99;
 }
 
-.box1 {
-    
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: white
+.logo{
 
-}
-
-.box2 {
-   
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    color: white;
-}
-
-.box3 {
-    height: 99%;
-    justify-content: space-between;
-    display: flex;
-    color: white
-}
-
-.box4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    div{
-        
-    }
+    font-weight: bold;
+    margin-left: 3%;
+}
 
-    border-radius: 50%;
+.WeHelp{
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 3vh;
+}
+.You{
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 3vh;
+}
 
+.headerRight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 40%;
+    width: 40vw;
+    color: antiquewhite;
+    font: size 2vh;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+    margin-block-end: 5%;
+}
+.buttonLogin{
+    border-radius: 20px;
+    border-color: #ffca41;
+    width: 10vw;
+
+    background-color: #ff7f99;
+    color: antiquewhite;
+    font-size: 2vh;
 }
