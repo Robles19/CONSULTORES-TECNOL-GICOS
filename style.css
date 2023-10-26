@@ -1,4 +1,156 @@
-*{
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+    background-color: #ff7f99;
+}
+
+.logo{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 3%;
+    color: white;
+}
+.union{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7vh;
+}
+
+.weHelp{
+    color: white;
+    font-weight: bold;
+    font-size: 5vh;
+}
+.You{
+    color: #ffca41;
+    font-weight: bold;
+    font-size: 5vh;
+}
+
+.headerRight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1vh;
+    width: 30vh;
+    color: white;
+
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+    margin-block-end: 5%;
+    
+}
+.buttonlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #ffca41;
+    width: 8vw;
+    height: 4vh;
+    background-color: #ff7f99;
+    color: white;
+    font-size: 2vh;
+    border-radius: 50vh;
+    transition: 1s;
+    
+}
+
+.container{
+    margin: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.imagenmainsection{
+    border: none;
+    border-radius: 52% 0 52% 52%;
+    background: #ff7f99;
+    height: 35vh;
+    width: 35vh;
+    margin:2vh;}
+.title{
+    font-size: 48px;
+    color:#ff7f99
+}
+.title:hover{
+    
+}
+.callbutton{
+    margin: 2vh;
+    height: 4vh;
+    width: 12vh;
+    color: white;
+    border: none;
+    border-radius: 42px 42px 42px 42px;
+    background: #FFCA41;
+    margin-left: -0.5vh;
+    cursor: pointer;
+    transition:0.4s;
+
+}
+.callbutton:hover{
+    height: 4.5vh;
+     box-shadow: 10px 5px 5px rgb(161, 160, 160);
+     
+ }
+.rightsideofmain{
+    display: flex;
+    flex-direction: column;
+
+* {
     margin: 0;
     padding: 0;
+    background-color: #ff7f99;
+}
+
+.developers {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fish {
+    height: 40vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+.photo {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100%;
+    transition: 1s;
+}
+
+.hiden {
+    overflow: hidden;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo:hover {
+    height: 30vh;
+    width: 30vh;
+}
+
+.logo {
+    height: 5vh;
+    width: 5vh;
 }
