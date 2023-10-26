@@ -16,7 +16,7 @@ header{
 }
 
 .weHelp{
-    color: antiquewhite;
+    color: white;
     font-weight: bold;
     font-size: 5vh;
 }
@@ -32,7 +32,7 @@ header{
     align-items: center;
     margin-right: 1vh;
     width: 30vh;
-    color: antiquewhite;
+    color: white;
 
 }
 .contact{
@@ -47,9 +47,9 @@ header{
     border-color: #ffca41;
     width: 10vw;
     background-color: #ff7f99;
-    color: antiquewhite;
+    color: white;
     font-size: 2vh;
     border-radius: 20px;
-    zoom: 1;
+    transition: 1s;
     
 }
