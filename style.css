@@ -63,3 +63,48 @@ header{
     transition: 1s;
     
 }
+
+.container{
+    margin: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.imagenmainsection{
+    border: none;
+    border-radius: 52% 0 52% 52%;
+    background: #ff7f99;
+    height: 35vh;
+    width: 35vh;
+    margin:2vh;}
+.title{
+    font-size: 48px;
+    color:#ff7f99
+}
+.title:hover{
+    
+}
+.callbutton{
+    margin: 2vh;
+    height: 4vh;
+    width: 12vh;
+    color: white;
+    border: none;
+    border-radius: 42px 42px 42px 42px;
+    background: #FFCA41;
+    margin-left: -0.5vh;
+    cursor: pointer;
+    transition:0.4s;
+
+}
+.callbutton:hover{
+    height: 4.5vh;
+     box-shadow: 10px 5px 5px rgb(161, 160, 160);
+     
+ }
+.rightsideofmain{
+    display: flex;
+    flex-direction: column;
+
+}
