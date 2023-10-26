@@ -1,4 +1,8 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -62,4 +66,47 @@ header{
     border-radius: 50vh;
     transition: 1s;
     
+}
+
+.developers {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    background: #ff7f99;
+}
+
+.fish {
+    height: 40vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+.photo {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100%;
+    transition: 1s;
+}
+
+.hiden {
+    overflow: hidden;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo:hover {
+    height: 30vh;
+    width: 30vh;
+}
+
+.logo {
+    height: 5vh;
+    width: 5vh;
 }
