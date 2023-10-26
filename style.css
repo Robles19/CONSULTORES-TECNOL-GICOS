@@ -105,13 +105,13 @@ header{
  }
 .rightsideofmain{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;}
 
-* {
+* /*{
     margin: 0;
     padding: 0;
     background-color: #ff7f99;
-}
+}*/
 
 .developers {
     margin-top: 5vh;
