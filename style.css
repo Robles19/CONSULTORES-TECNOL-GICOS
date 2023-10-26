@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -9,10 +12,11 @@ header{
 .logo{
 
     display: flex;
-    justify-content: space-around;
+    margin-top: 2vh;
+    justify-content: center;
     align-items: center;
     font-weight: bold;
-    margin-left: 3%;
+    margin-left: 8%;
     color: white;
 }
 .union{
@@ -82,9 +86,6 @@ header{
     font-size: 48px;
     color:#ff7f99
 }
-.title:hover{
-    
-}
 .callbutton{
     margin: 2vh;
     height: 4vh;
@@ -107,18 +108,22 @@ header{
     display: flex;
     flex-direction: column;}
 
+<<<<<<< HEAD
 * /*{
     margin: 0;
     padding: 0;
     background-color: #ff7f99;
 }*/
+=======
+}
+>>>>>>> 3356755792df895ed1486f106cf98130766848bd
 
 .developers {
     margin-top: 5vh;
     display: flex;
     justify-content: space-around;
+    background: #ff7f99;
 }
-
 .fish {
     height: 40vh;
     width: 30vh;
@@ -127,14 +132,12 @@ header{
     align-items: center;
     justify-content: space-around
 }
-
 .photo {
     height: 20vh;
     width: 20vh;
     border-radius: 100%;
     transition: 1s;
 }
-
 .hiden {
     overflow: hidden;
     width: 20vh;
@@ -144,12 +147,10 @@ header{
     justify-content: center;
     align-items: center;
 }
-
 .photo:hover {
     height: 30vh;
     width: 30vh;
 }
-
 .logo {
     height: 5vh;
     width: 5vh;
