@@ -1,7 +1,7 @@
 
 header{
     display: flex;
-    justify-content:space-around ;
+    justify-content: space-between;
     height: 9vh;
     background-color: #ff7f99;
 }
@@ -9,10 +9,16 @@ header{
 .logo{
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-weight: bold;
     margin-left: 3%;
+    color: white;
+}
+.union{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7vh;
 }
 
 .weHelp{
@@ -44,12 +50,16 @@ header{
     
 }
 .buttonlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-color: #ffca41;
-    width: 10vw;
+    width: 8vw;
+    height: 4vh;
     background-color: #ff7f99;
     color: white;
     font-size: 2vh;
-    border-radius: 20px;
+    border-radius: 50vh;
     transition: 1s;
     
 }
