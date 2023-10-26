@@ -1,0 +1,65 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+    background-color: #ff7f99;
+}
+
+.logo{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 3%;
+    color: white;
+}
+.union{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7vh;
+}
+
+.weHelp{
+    color: white;
+    font-weight: bold;
+    font-size: 5vh;
+}
+.You{
+    color: #ffca41;
+    font-weight: bold;
+    font-size: 5vh;
+}
+
+.headerRight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1vh;
+    width: 30vh;
+    color: white;
+
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+    margin-block-end: 5%;
+    
+}
+.buttonlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #ffca41;
+    width: 8vw;
+    height: 4vh;
+    background-color: #ff7f99;
+    color: white;
+    font-size: 2vh;
+    border-radius: 50vh;
+    transition: 1s;
+    
+}
