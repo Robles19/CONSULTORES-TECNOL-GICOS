@@ -108,16 +108,6 @@ header{
     display: flex;
     flex-direction: column;}
 
-<<<<<<< HEAD
-* /*{
-    margin: 0;
-    padding: 0;
-    background-color: #ff7f99;
-}*/
-=======
-}
->>>>>>> 3356755792df895ed1486f106cf98130766848bd
-
 .developers {
     margin-top: 5vh;
     display: flex;
