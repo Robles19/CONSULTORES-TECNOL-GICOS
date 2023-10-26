@@ -82,9 +82,6 @@ header{
     font-size: 48px;
     color:#ff7f99
 }
-.title:hover{
-    
-}
 .callbutton{
     margin: 2vh;
     height: 4vh;
@@ -105,20 +102,19 @@ header{
  }
 .rightsideofmain{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;}
+
 
 * {
     margin: 0;
     padding: 0;
     background-color: #ff7f99;
 }
-
 .developers {
     margin-top: 5vh;
     display: flex;
     justify-content: space-around;
 }
-
 .fish {
     height: 40vh;
     width: 30vh;
@@ -127,14 +123,12 @@ header{
     align-items: center;
     justify-content: space-around
 }
-
 .photo {
     height: 20vh;
     width: 20vh;
     border-radius: 100%;
     transition: 1s;
 }
-
 .hiden {
     overflow: hidden;
     width: 20vh;
@@ -144,12 +138,10 @@ header{
     justify-content: center;
     align-items: center;
 }
-
 .photo:hover {
     height: 30vh;
     width: 30vh;
 }
-
 .logo {
     height: 5vh;
     width: 5vh;
