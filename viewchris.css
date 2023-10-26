@@ -2,6 +2,29 @@
     margin: 0;
     padding: 0;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+    background-color: #ff7f99;
+}
+
+.logo{
+
+    display: flex;
+    margin-top: 2vh;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 8%;
+    color: white;
+}
+.union{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7vh;
+}
+
 .weHelp{
     color: white;
     font-weight: bold;
@@ -44,7 +67,6 @@
     transition: 1s;
     
 }
-
 .container {
     margin:4vh ;
     display: flex;
