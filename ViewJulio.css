@@ -1,5 +1,4 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -7,7 +6,6 @@ header{
     display: flex;
     justify-content: space-between;
     height: 9vh;
-<<<<<<< HEAD
     background-color: #ff7f99;
 }
 
@@ -70,25 +68,101 @@ header{
     
 }
 
-.container{
-    margin: 4vh;
+
+.container {
+    margin:4vh ;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-between;
+   
+}
+.pinkbox{
+    border: none;
+    border-radius: 52% 0% 52% 52%;
+    background: #ff7f99;
+    height: 28vh;
+    width: 28vh;
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.imagenmainsection{
+.imagenmainsection {
+   
     border: none;
-    border-radius: 52% 0 52% 52%;
-    background: #ff7f99;
-    height: 35vh;
-    width: 35vh;
-    margin:2vh;}
-.title{
-    font-size: 48px;
-    color:#ff7f99
+    border-radius:50% ;
+    height: 26vh;
+    width: 26vh;
+    margin: 2vh;
+    
 }
-.callbutton{
+
+.rightsideofmain {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+
+}
+
+.title {
+    font-size: 48px;
+    color: #ff7f99
+   
+}
+.title{
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein{
+    from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left:0%;
+        width: 100%;
+      }
+
+
+}
+/*.subtitle{
+    animation-duration: 6s;
+    animation-name: fall;
+
+}
+@keyframes fall{
+    from {
+        margin-block-start: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-block-end:0%;
+        width: 100%;
+      }
+    }
+*/
+.descriptionoftheprofessional{ 
+    width: 30%;
+}
+.buttoncontainers {
+    display: flex;
+    justify-content: flex-start;
+    justify-content:space-between ;
+    width: 18vh;
+    align-items: center;
+}
+
+.logolinkedin {
+    height: 2vh;
+    width: 2vh;
+}
+
+.callbutton {
     margin: 2vh;
     height: 4vh;
     width: 12vh;
@@ -98,88 +172,23 @@ header{
     background: #FFCA41;
     margin-left: -0.5vh;
     cursor: pointer;
-    transition:0.4s;
+    transition: 0.4s;
 
 }
-.callbutton:hover{
+
+.callbutton:hover {
     height: 4.5vh;
-     box-shadow: 10px 5px 5px rgb(161, 160, 160);
-     
- }
-.rightsideofmain{
-    display: flex;
-    flex-direction: column;}
-
-=======
->>>>>>> ViewJulio
-    background-color: #ff7f99;
-}
-
-.logo{
-
-    display: flex;
-    margin-top: 2vh;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    margin-left: 8%;
-    color: white;
-}
-.union{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 7vh;
-}
-
-.weHelp{
-    color: white;
-    font-weight: bold;
-    font-size: 5vh;
-}
-.You{
-    color: #ffca41;
-    font-weight: bold;
-    font-size: 5vh;
-}
-
-.headerRight{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-right: 1vh;
-    width: 30vh;
-    color: white;
+    box-shadow: 10px 5px 5px rgb(161, 160, 160);
 
 }
-.contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 9vh;
-    margin-block-end: 5%;
-    
-}
-.buttonlogin{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-color: #ffca41;
-    width: 8vw;
-    height: 4vh;
-    background-color: #ff7f99;
-    color: white;
-    font-size: 2vh;
-    border-radius: 50vh;
-    transition: 1s;
-    
-}
-
 .developers {
     margin-top: 5vh;
     display: flex;
     justify-content: space-around;
     background: #ff7f99;
+    height: 50vh;
 }
+
 .fish {
     height: 40vh;
     width: 30vh;
@@ -188,12 +197,14 @@ header{
     align-items: center;
     justify-content: space-around
 }
+
 .photo {
     height: 20vh;
     width: 20vh;
     border-radius: 100%;
     transition: 1s;
 }
+
 .hiden {
     overflow: hidden;
     width: 20vh;
@@ -203,10 +214,12 @@ header{
     justify-content: center;
     align-items: center;
 }
+
 .photo:hover {
     height: 30vh;
     width: 30vh;
 }
+
 .logo {
     height: 5vh;
     width: 5vh;
