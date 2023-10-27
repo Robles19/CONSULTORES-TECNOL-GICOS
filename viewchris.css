@@ -185,6 +185,7 @@ header{
     display: flex;
     justify-content: space-around;
     background: #ff7f99;
+    height: 50vh;
 }
 
 .fish {
