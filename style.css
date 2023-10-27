@@ -7,7 +7,6 @@ header{
     display: flex;
     justify-content: space-between;
     height: 9vh;
-<<<<<<< HEAD
     background-color: #ff7f99;
 }
 
@@ -109,11 +108,8 @@ header{
 .rightsideofmain{
     display: flex;
     flex-direction: column;}
+ 
 
-=======
->>>>>>> ViewJulio
-    background-color: #ff7f99;
-}
 
 .logo{
 
