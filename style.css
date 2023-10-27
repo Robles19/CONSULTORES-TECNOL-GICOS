@@ -5,15 +5,14 @@
 }
 header{
     display: flex;
-    justify-content: space-between;
-    height: 9vh;
+    /*justify-content: space-between;*/
+    height: 12vh;
     background-color: #ff7f99;
 }
 
-.logo{
+.titleheader{
 
     display: flex;
-    margin-top: 2vh;
     justify-content: center;
     align-items: center;
     font-weight: bold;
@@ -41,7 +40,6 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 1vh;
     width: 30vh;
     color: white;
 
@@ -50,8 +48,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 9vh;
-    margin-block-end: 5%;
     
 }
 .buttonlogin{
@@ -59,7 +55,7 @@ header{
     justify-content: center;
     align-items: center;
     border-color: #ffca41;
-    width: 8vw;
+    width: 13vh;
     height: 4vh;
     background-color: #ff7f99;
     color: white;
@@ -83,6 +79,7 @@ header{
     height: 35vh;
     width: 35vh;
     margin:2vh;}
+    
 .title{
     font-size: 48px;
     color:#ff7f99
@@ -121,54 +118,7 @@ header{
     margin-left: 8%;
     color: white;
 }
-.union{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 7vh;
-}
 
-.weHelp{
-    color: white;
-    font-weight: bold;
-    font-size: 5vh;
-}
-.You{
-    color: #ffca41;
-    font-weight: bold;
-    font-size: 5vh;
-}
-
-.headerRight{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-right: 1vh;
-    width: 30vh;
-    color: white;
-
-}
-.contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 9vh;
-    margin-block-end: 5%;
-    
-}
-.buttonlogin{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-color: #ffca41;
-    width: 8vw;
-    height: 4vh;
-    background-color: #ff7f99;
-    color: white;
-    font-size: 2vh;
-    border-radius: 50vh;
-    transition: 1s;
-    
-}
 
 .developers {
     margin-top: 5vh;
@@ -206,4 +156,36 @@ header{
 .logo {
     height: 5vh;
     width: 5vh;
+}
+@media (max-width:391px){
+    header{
+        height: 12vh;
+        display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+    }
+    .union{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0vh;
+    }  
+    .container{
+    margin: 4vh;
+    display: flex;
+    flex-direction: column;
+    } 
+    .rightsideofmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .developers{
+    margin-top: 5vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background: #ff7f99;
+}
+    }
 }
