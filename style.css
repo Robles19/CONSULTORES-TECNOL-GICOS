@@ -1,94 +1,97 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
-    height: 9vh;
+    height: 12vh;
     background-color: #ff7f99;
     
 }
 
-.logo{
+.titleheader {
 
     display: flex;
-    margin-top: 2vh;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     margin-left: 8%;
     color: white;
 }
-.union{
+
+.union {
     display: flex;
     justify-content: space-between;
     margin-right: 7vh;
 }
 
-.weHelp{
+.weHelp {
     color: white;
     font-weight: bold;
     font-size: 5vh;
 }
-.You{
+
+.You {
     color: #ffca41;
     font-weight: bold;
     font-size: 5vh;
 }
 
-.headerRight{
+.headerRight {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 1vh;
     width: 30vh;
     color: white;
 
 }
-.contact{
+
+.contact {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 9vh;
-    margin-block-end: 5%;
-    
+
 }
-.buttonlogin{
+
+.buttonlogin {
     display: flex;
     justify-content: center;
     align-items: center;
     border-color: #ffca41;
-    width: 8vw;
+    width: 13vh;
     height: 4vh;
     background-color: #ff7f99;
     color: white;
     font-size: 2vh;
     border-radius: 50vh;
     transition: 1s;
-    
+
 }
 
-.container{
+.container {
     margin: 4vh;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
-.imagenmainsection{
+.imagenmainsection {
     border: none;
     border-radius: 52% 0 52% 52%;
     background: #ff7f99;
     height: 35vh;
     width: 35vh;
-    margin:2vh;}
-.title{
-    font-size: 48px;
-    color:#ff7f99
+    margin: 2vh;
 }
-.callbutton{
+
+.title {
+    font-size: 48px;
+    color: #ff7f99
+}
+
+.callbutton {
     margin: 2vh;
     height: 4vh;
     width: 12vh;
@@ -98,21 +101,24 @@ header{
     background: #FFCA41;
     margin-left: -0.5vh;
     cursor: pointer;
-    transition:0.4s;
+    transition: 0.4s;
 
 }
-.callbutton:hover{
+
+.callbutton:hover {
     height: 4.5vh;
-     box-shadow: 10px 5px 5px rgb(161, 160, 160);
-     
- }
-.rightsideofmain{
+    box-shadow: 10px 5px 5px rgb(161, 160, 160);
+
+}
+
+.rightsideofmain {
     display: flex;
-    flex-direction: column;}
- 
+    flex-direction: column;
+}
 
 
-.logo{
+
+.logo {
 
     display: flex;
     margin-top: 2vh;
@@ -122,54 +128,7 @@ header{
     margin-left: 8%;
     color: white;
 }
-.union{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 7vh;
-}
 
-.weHelp{
-    color: white;
-    font-weight: bold;
-    font-size: 5vh;
-}
-.You{
-    color: #ffca41;
-    font-weight: bold;
-    font-size: 5vh;
-}
-
-.headerRight{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-right: 1vh;
-    width: 30vh;
-    color: white;
-
-}
-.contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 9vh;
-    margin-block-end: 5%;
-    
-}
-.buttonlogin{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-color: #ffca41;
-    width: 8vw;
-    height: 4vh;
-    background-color: #ff7f99;
-    color: white;
-    font-size: 2vh;
-    border-radius: 50vh;
-    transition: 1s;
-    
-}
 
 .developers {
     margin-top: 5vh;
@@ -177,6 +136,7 @@ header{
     justify-content: space-around;
     background: #ff7f99;
 }
+
 .fish {
     height: 40vh;
     width: 30vh;
@@ -185,12 +145,14 @@ header{
     align-items: center;
     justify-content: space-around
 }
+
 .photo {
     height: 20vh;
     width: 20vh;
     border-radius: 100%;
     transition: 1s;
 }
+
 .hiden {
     overflow: hidden;
     width: 20vh;
@@ -200,16 +162,94 @@ header{
     justify-content: center;
     align-items: center;
 }
+
 .photo:hover {
     height: 30vh;
     width: 30vh;
 }
+
 .logo {
     height: 5vh;
     width: 5vh;
 }
+<<<<<<< HEAD
 @media (max-width:391px){
 header{
     justify-content: center;
 }
+=======
+
+@media (max-width:391px) {
+    header {
+        height: 12vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .union {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0vh;
+    }
+
+    .container {
+        margin: 4vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightsideofmain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .developers {
+        margin-top: 5vh;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        background: #ff7f99;
+    }
+}
+
+@media (max-width:821px) {
+    header {
+        height: 12vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .union {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 0vh;
+    }
+
+    .container {
+        margin: 4vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightsideofmain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .developers {
+        margin-top: 5vh;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        background: #ff7f99;
+    }
+
+
+>>>>>>> 7decb6397ee1d9c166c98cdeb20ce7eda153664a
 }
