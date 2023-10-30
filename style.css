@@ -91,7 +91,7 @@ header {
     color: #ff7f99
 }
 
-.callbutton {
+.callbutton {/*corregir márgenes*/
     margin: 2vh;
     height: 4vh;
     width: 12vh;
@@ -99,7 +99,7 @@ header {
     border: none;
     border-radius: 42px 42px 42px 42px;
     background: #FFCA41;
-    margin-left: -0.5vh;
+    /*margin-left: -0.5vh;*/
     cursor: pointer;
     transition: 0.4s;
 
@@ -209,7 +209,7 @@ header {
     }
 }
 
-@media (max-width:821px) {
+@media (max-width:821px) {/*cambiar orden de mayor a menor*/
     header {
         height: 12vh;
         display: flex;
