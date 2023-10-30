@@ -8,6 +8,7 @@ header{
     justify-content: space-between;
     height: 9vh;
     background-color: #ff7f99;
+    
 }
 
 .logo{
@@ -206,4 +207,9 @@ header{
 .logo {
     height: 5vh;
     width: 5vh;
+}
+@media (max-width:391px){
+header{
+    justify-content: center;
+}
 }
