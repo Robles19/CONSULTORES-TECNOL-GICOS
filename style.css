@@ -172,12 +172,6 @@ header {
     height: 5vh;
     width: 5vh;
 }
-<<<<<<< HEAD
-@media (max-width:391px){
-header{
-    justify-content: center;
-}
-=======
 
 @media (max-width:391px) {
     header {
@@ -251,5 +245,4 @@ header{
     }
 
 
->>>>>>> 7decb6397ee1d9c166c98cdeb20ce7eda153664a
 }
